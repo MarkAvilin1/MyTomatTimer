@@ -9,7 +9,7 @@ let sMin = 5;
 let lMin = 15;
 
 function playSound() {
-    let sound = new Audio('2.mp3');
+    let sound = new Audio('dindin.mp3');
     sound.play();
 }
 
@@ -19,7 +19,7 @@ function tTimerSetting() {
 }
 
 function sTimerSetting() {
-    let timer2 = setTimeout(shortBreak,10);
+    let timer2 = setTimeout(shortBreak,1000);
     return timer2;
 }
 
