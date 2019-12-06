@@ -36,6 +36,8 @@ function timeWork(){
     let minuet = document.getElementById('min');
     
     if (cond == true) {
+        document.getElementById('sec').innerHTML = '59';
+        document.getElementById('min').innerHTML = '24';
         sCond = false;
         lCond = false;
         tSec--;
@@ -72,8 +74,6 @@ document.getElementById('btn1').onclick = function() {
     timeWork();
     tSec = 60;
     tMin = 24;
-    document.getElementById('sec').innerHTML = '59';
-    document.getElementById('min').innerHTML = '25';
 }
 
 document.getElementById('btn2').onclick = function() {
@@ -92,6 +92,8 @@ function shortBreak(){
     let minuet = document.getElementById('sMin');
     
     if (sCond == true) {
+        document.getElementById('sSec').innerHTML = '59';
+        document.getElementById('sMin').innerHTML = '04';
         cond = false;
         lCond = false;
         sSec--;
@@ -123,8 +125,6 @@ document.getElementById('btnS1').onclick = function() {
     shortBreak();
     sSec = 60;
     sMin = 4;
-    document.getElementById('sSec').innerHTML = '59';
-    document.getElementById('sMin').innerHTML = '04';
 }
 
 document.getElementById('btnS2').onclick = function() {
@@ -144,6 +144,8 @@ function longBreak(){
     
     if (lCond == true) {
 
+        document.getElementById('lSec').innerHTML = '59';
+        document.getElementById('lMin').innerHTML = '14';
         sCond = false;
         Cond = false;
 
@@ -180,8 +182,6 @@ document.getElementById('btnL1').onclick = function() {
     longBreak();
     lSec = 60;
     lMin = 14;
-    document.getElementById('lSec').innerHTML = '59';
-    document.getElementById('lMin').innerHTML = '14';
 }
 
 document.getElementById('btnL2').onclick = function() {
