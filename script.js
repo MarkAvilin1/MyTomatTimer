@@ -36,7 +36,7 @@ function timeWork(){
     let minuet = document.getElementById('min');
     
     if (cond == true) {
-        document.getElementById('sec').innerHTML = '59';
+        document.getElementById('sec').innerHTML = '00';
         document.getElementById('min').innerHTML = '24';
         sCond = false;
         lCond = false;
@@ -92,7 +92,7 @@ function shortBreak(){
     let minuet = document.getElementById('sMin');
     
     if (sCond == true) {
-        document.getElementById('sSec').innerHTML = '59';
+        document.getElementById('sSec').innerHTML = '00';
         document.getElementById('sMin').innerHTML = '04';
         cond = false;
         lCond = false;
@@ -144,7 +144,7 @@ function longBreak(){
     
     if (lCond == true) {
 
-        document.getElementById('lSec').innerHTML = '59';
+        document.getElementById('lSec').innerHTML = '00';
         document.getElementById('lMin').innerHTML = '14';
         sCond = false;
         Cond = false;
