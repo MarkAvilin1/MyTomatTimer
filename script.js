@@ -4,12 +4,12 @@ let lCond = true;
 let tSec = 60;
 let sSec = 60;
 let lSec = 60;
-let tMin = 25;
-let sMin = 5;
-let lMin = 15;
+let tMin = 24;
+let sMin = 4;
+let lMin = 14;
 
 function playSound() {
-    let sound = new Audio('dindin.mp3');
+    let sound = new Audio('2.mp3');
     sound.play();
 }
 
@@ -48,9 +48,10 @@ function timeWork(){
         }
 
         if (tSec == 0) {
+            
             tSec = 60;
-
             tMin--;
+            
             if (tMin <= 9){
                 minuet.innerHTML = '0' + tMin;
             }else {
@@ -70,8 +71,8 @@ function timeWork(){
 document.getElementById('btn1').onclick = function() {
     timeWork();
     tSec = 60;
-    tMin = 25;
-    document.getElementById('sec').innerHTML = '00';
+    tMin = 24;
+    document.getElementById('sec').innerHTML = '59';
     document.getElementById('min').innerHTML = '25';
 }
 
@@ -106,7 +107,7 @@ function shortBreak(){
             sSec = 60;
 
             sMin--;
-            if (sMin <= -1){
+            if (sMin == -1){
                 cond = true;
                 sCond = false;
                 lCond = true;
@@ -121,9 +122,9 @@ function shortBreak(){
 document.getElementById('btnS1').onclick = function() {
     shortBreak();
     sSec = 60;
-    sMin = 5;
-    document.getElementById('sSec').innerHTML = '00';
-    document.getElementById('sMin').innerHTML = '05';
+    sMin = 4;
+    document.getElementById('sSec').innerHTML = '59';
+    document.getElementById('sMin').innerHTML = '04';
 }
 
 document.getElementById('btnS2').onclick = function() {
@@ -165,7 +166,7 @@ function longBreak(){
                 minuet.innerHTML = lMin;
             }
 
-            if (lMin <= 0) {
+            if (lMin == 0) {
                 Cond = true;
                 sCond = true;
                 lCond = false;
@@ -178,9 +179,9 @@ function longBreak(){
 document.getElementById('btnL1').onclick = function() {
     longBreak();
     lSec = 60;
-    lMin = 15;
-    document.getElementById('lSec').innerHTML = '00';
-    document.getElementById('lMin').innerHTML = '15';
+    lMin = 14;
+    document.getElementById('lSec').innerHTML = '59';
+    document.getElementById('lMin').innerHTML = '14';
 }
 
 document.getElementById('btnL2').onclick = function() {
@@ -200,9 +201,9 @@ document.getElementById('restart').onclick = function() {
     tSec = 60;
     sSec = 60;
     lSec = 60;
-    tMin = 25;
-    sMin = 5;
-    lMin = 15;
+    tMin = 24;
+    sMin = 4;
+    lMin = 14;
 
     document.getElementById('sec').innerHTML = '00';
     document.getElementById('min').innerHTML = '25';

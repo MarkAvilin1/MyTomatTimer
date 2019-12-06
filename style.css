@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(to bottom left,lightgreen,lightblue,blue,yellow,blue,lightblue,lightgreen);
+}
+
 div{
             margin-left: 15px;
             border-radius: 0px 50%;
