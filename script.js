@@ -73,7 +73,7 @@ document.getElementById('btn1').onclick = function() {
     tSec = 60;
     tMin = 24;
     document.getElementById('sec').innerHTML = '59';
-    document.getElementById('min').innerHTML = '25';
+    document.getElementById('min').innerHTML = '24';
 }
 
 document.getElementById('btn2').onclick = function() {

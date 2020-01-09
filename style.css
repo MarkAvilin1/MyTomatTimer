@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom left,lightgreen,lightblue,blue,yellow,blue,lightblue,lightgreen);
+    background-image: linear-gradient(to bottom,lightblue,white,lightblue);
 }
 
 div{
@@ -33,7 +33,7 @@ div{
             float: left;
         }
         
-        button {
+        .button {
             float: right;
             width: 65px;
             height: 30px;
@@ -78,11 +78,13 @@ div{
 
         .cont1{
             margin: 0 auto;
+            text-align: center;
+            width: 645px;
         }
 
         .cont2 {
-            margin-left: 25%;
-            margin-right: 25%;
+            margin: 0 auto;
+            text-align: center;
         }
 
         #restart {
@@ -90,15 +92,22 @@ div{
             width: 280px;
             height: 60px;
             color: red;
-            margin:auto ;
-            font-weight: bolder;
+            margin: 0 auto ;
+            font-weight: bold;
             font-size: 30px;
             text-shadow: 1px 1px 2px black;
-            position: relative;
-            top: 300px;
-            right: 35%;
-            float: none;
             border-radius: 0px 50%;
-            border: 5px solid black;
+            border: 1px solid gray;
             box-shadow: 2px 2px 5px black;
+        }
+
+        #restartBTN {
+            position: relative;
+            top: 50px;
+            clear: both;
+            width: 282px;
+            height: 62px;
+            margin: 0 auto;
+            text-align: center;
+            
         }
