@@ -72,8 +72,8 @@ document.getElementById('btn1').onclick = function() {
     timeWork();
     tSec = 60;
     tMin = 24;
-    document.getElementById('sec').innerHTML = tSec--;
-    document.getElementById('min').innerHTML = '24';
+    document.getElementById('sec').innerHTML = '59';
+    document.getElementById('min').innerHTML = '25';
 }
 
 document.getElementById('btn2').onclick = function() {
@@ -123,7 +123,7 @@ document.getElementById('btnS1').onclick = function() {
     shortBreak();
     sSec = 60;
     sMin = 4;
-    document.getElementById('sSec').innerHTML = '00';
+    document.getElementById('sSec').innerHTML = '59';
     document.getElementById('sMin').innerHTML = '04';
 }
 
@@ -180,7 +180,7 @@ document.getElementById('btnL1').onclick = function() {
     longBreak();
     lSec = 60;
     lMin = 14;
-    document.getElementById('lSec').innerHTML = '00';
+    document.getElementById('lSec').innerHTML = '59';
     document.getElementById('lMin').innerHTML = '14';
 }
 
