@@ -9,59 +9,60 @@
 </head>
 <body>
    
-   <h1 class="title">Таймер "ТОМАТ"</h1>
+    <div id="container">
+        <h1 class="title">Таймер "ТОМАТ"</h1>
 
-    <center>
+            <center>
 
-    <div class="cont1">
-        <div class="cont2">
+            <div class="cont1">
+                <div class="cont2">
 
-            <div id="work">
-                <h2>Время <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Работы</h1>
+                    <div id="work">
+                        <h2>Время <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Работы</h1>
 
-                <h1>   <span id="min">25</span>:<span id="sec">00</span> </h2>
+                        <h1>   <span id="min">25</span>:<span id="sec">00</span> </h2>
 
-                <br>
+                        <br>
 
-                <button id="btn2" class="button">Stop</button> <button class="button" id="btn1">Start</button class="button"> 
+                        <button id="btn2" class="button">Stop</button> <button class="button" id="btn1">Start</button class="button"> 
 
+                    </div>
+
+                    <div id="sBreak">
+
+                        <h2>Короткий <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Перерыв</h2>
+                        
+                        <h1>   <span id="sMin">05</span>:<span id="sSec">00</span> </h1>
+
+                        <br>
+
+                        <button class="button" id="btnS2">Stop</button class="button"> <button class="button" id="btnS1">Start</button class="button"> 
+
+                    </div>
+
+
+                    <div id="lBreak">
+
+                        <h2>Длинный <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Перерыв</h2>
+
+                        <h1>   <span id="lMin">15</span>:<span id="lSec">00</span> </h1>
+
+                        <br>
+
+                        <button class="button" id="btnL2">Stop</button class="button"> <button class="button" id="btnL1">Start</button class="button"> 
+
+                    </div>
+                    
+                </div>
             </div>
 
-            <div id="sBreak">
-
-                <h2>Короткий <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Перерыв</h2>
-                
-                <h1>   <span id="sMin">05</span>:<span id="sSec">00</span> </h1>
-
-                <br>
-
-                <button class="button" id="btnS2">Stop</button class="button"> <button class="button" id="btnS1">Start</button class="button"> 
-
+            <div id="restartBtn">
+                <input type="button" id="restart" value="Перезагрузить">
             </div>
-
-
-            <div id="lBreak">
-
-                <h2>Длинный <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Перерыв</h2>
-
-                <h1>   <span id="lMin">15</span>:<span id="lSec">00</span> </h1>
-
-                <br>
-
-                <button class="button" id="btnL2">Stop</button class="button"> <button class="button" id="btnL1">Start</button class="button"> 
-
-            </div>
-            
-       </div>
-    </div>
-
-    <div id="restartBtn">
-        <input type="button" id="restart" value="Перезагрузить">
-    </div>
-   </center>
-   
+        </center>
+    </div>   
    
     <script src="script.js" type="text/javascript"></script>
     
