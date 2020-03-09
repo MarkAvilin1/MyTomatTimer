@@ -16,6 +16,8 @@ div{
               border: none;
               border-radius: none;
               padding: 50px;
+              width: 100%;
+              height: 100%;
         } 
         
         #work{
